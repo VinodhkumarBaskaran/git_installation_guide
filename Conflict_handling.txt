@@ -1,0 +1,20 @@
+
+Let say you have three branch 
+    1. Main  -> city.txt >> city = None
+    2. Branch 1 -> city.txt >> city = Bangalore
+    3. Branch 2 -> city.txt >> city = Chennai
+
+
+Now, we merge Branch 1 and Branch 2 to Main 
+
+    1. Create a Pull request to Merge Branch 1 to main
+    2. Head will check and accept the merger
+    3. Now , in main city will be Bangalore
+    4. Create a pull request to merge Branch 2 to main
+    5. Head will check and now it will show conflict 
+    6. Now git will get confused whether to take city has Bangalore or Chennai
+    7. Click Resolve, need to resolve it manually. In our case set city has bangalore or Chennai
+    8. Click Mark as resolved
+    9. Commit change
+    10. Merge and accept pull request.
+
