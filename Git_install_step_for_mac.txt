@@ -1,5 +1,5 @@
 Git installation for Mac:
-
+===================================================================
 1. Download git - https://sourceforge.net/projects/git-osx-installer/
 2. Install git — It will throw error in Mac
 3. Open >> Setting >> Privacy and Security >> Scroll down >> file will appear at the end >> install (click anyways)
@@ -13,6 +13,15 @@ Git installation for Mac:
 
 
 Setup the user name and email id
-
+===================================================================
 git config --global user.name "VinodhkumarBaskaran" -- github username
 git config --global user.name "vinodhb95@gmail.com" -- github emailid
+
+To clone (copy) the files from  GitHub to local
+===================================================================
+1. Create / select the folder where you to clone the files
+2. Open terminal >> set the path to created/selected folder 
+3. Go to GitHub >> select the Repo that you want to clone
+4. Click on the Code
+5. Copy the code from GitHub
+6. In Terminal, enter git clone <Paste the copied path from github> , hit Enter
