@@ -1,0 +1,39 @@
+Creating a Branch for maintaining various code
+==============================================
+
+1. Move to folder which need additional Version
+    1.1: Enter git branch -a --> list all the available branch
+2. Go to Github, create branch (new)
+    2.1: Provide branch name and select created branch from main
+3. Go to terminal and hit git branch -a --> it will not show newly created Branch
+4. Because local Repo will not know about the new branch, to make it aware, Do
+    git pull
+5. Now it will get update
+
+To Create branch from command line 
+
+1. git branch branch_name
+2. git checkout branch_name
+3. git add . 
+4. git push origin main
+
+
+Moving from branch
+===================
+
+1. Go to the path and Hit git checkout branch_name
+2. create new file
+3. Hit git add .
+3. git commit -m "created new file in new branch"
+4. git push origin branch_name
+
+To see the difference between Main and Other Branch
+=====================================================
+
+1. git diff branch_name
+
+To merge the branch change/modification to main Branch
+======================================================
+
+1. Go to main branch --> git merge branch_name
+2. git push origin main
