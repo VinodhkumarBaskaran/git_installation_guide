@@ -9,3 +9,10 @@ Git installation for Mac:
 7. Open Terminal
 8. Enter git —version (Version will display)
 9. Installation is successful
+
+
+
+Setup the user name and email id
+
+git config --global user.name "VinodhkumarBaskaran" -- github username
+git config --global user.name "vinodhb95@gmail.com" -- github emailid
