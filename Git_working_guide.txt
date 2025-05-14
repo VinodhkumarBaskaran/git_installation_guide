@@ -41,4 +41,41 @@ no changes added to commit (use "git add" and/or "git commit -a")
     3.1 : Changes not staged for commit --> Some changes made to exisiting file which is not commited to Repo
     3.2: Untracked files --> New files has been created
 
+4. Now, we can add new file to remote
+    4.1: Enter the command :  git add new_file_name 
+    4.2: git add will push the file to staging area
+    4.3: To push the file to Repo type git commit -m "Provide comment"
+    4.4: git push origin main
+
+5. Now, we can add modified file to remote
+  5.1 : git add modified file
+  5.2: git commit -m "Provide comment"
+  5.3: git push origin main
+
+6. To delete a file in remote, I deleted test.txt
+  6.1: git status
+  Example
+  (base) Vinithas-Mac-mini:git_installation_guide vv$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+  6.2: git add "Deleted file name with extension"
+  6.3: git commit -m "Deleted the test.txt"
+  6.4: git push origin main 
+
+
+7. Remote/ Repo has new file (say committed by external user),
+ Now how to bring those changes to local,
+  7.1: If you clone, then it will clone entire data once again 
+       but in local we already have all the data expect new data.
+  7.2: git clone is not a options
+  7.3: Use git pull --> pull only bring those file where changes are done 
 
