@@ -1,0 +1,11 @@
+Git installation for Mac:
+
+1. Download git - https://sourceforge.net/projects/git-osx-installer/
+2. Install git — It will throw error in Mac
+3. Open >> Setting >> Privacy and Security >> Scroll down >> file will appear at the end >> install (click anyways)
+4. Once installed open terminal 
+5. On top right >> Click on Terminal >> Open setting >> click on command >> enter (/bin/bash)
+6. Close
+7. Open Terminal
+8. Enter git —version (Version will display)
+9. Installation is successful
