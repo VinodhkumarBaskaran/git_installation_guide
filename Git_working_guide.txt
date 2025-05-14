@@ -1,4 +1,4 @@
-Setup the user name and email id
+Setup the user name and email id -- Use BAsh not zsh command line
 ===================================================================
 git config --global user.name "VinodhkumarBaskaran" -- github username
 git config --global user.name "vinodhb95@gmail.com" -- github emailid
