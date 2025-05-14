@@ -1,0 +1,44 @@
+Setup the user name and email id
+===================================================================
+git config --global user.name "VinodhkumarBaskaran" -- github username
+git config --global user.name "vinodhb95@gmail.com" -- github emailid
+
+To clone (copy) the files from  GitHub to local
+===================================================================
+1. Create / select the folder where you to clone the files
+2. Open terminal >> set the path to created/selected folder 
+3. Go to GitHub >> select the Repo that you want to clone
+4. Click on the Code
+5. Copy the code from GitHub
+6. In Terminal, enter git clone <Paste the copied path from github> , hit Enter
+
+
+In Local, we are creating new files or made any changes in the existing
+========================================================================
+
+1. Changes will not be there in the github Repo
+2. To check and confirm, Enter command "git status" and hit Enter
+ Example:
+
+ (base) Vinithas-Mac-mini:git_installation_guide vv$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Git_install_step_for_mac.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Git working guide
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+3. One can see two comment thrown by Git 
+    3.1 : Changes not staged for commit --> Some changes made to exisiting file which is not commited to Repo
+    3.2: Untracked files --> New files has been created
+
+
