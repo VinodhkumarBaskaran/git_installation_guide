@@ -1,0 +1,46 @@
+1. Select to folder path which needs to pushed to Repo
+2. Create a git connection
+    2.1: git init
+    2.2: git status
+         Example:
+         On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+3. Each time we can't mention file name and commit, so to avoid one can use 
+    3.1: git add . --> add all the modified/ new files to staging 
+    3.2: git status
+    Example:
+    n branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+4. commit, 
+    4.1: git commit -m "Created index.html"
+
+5. ***********Important**************************
+    5.1: git push origin main 
+
+    (base) Vinithas-Mac-mini:githubvino2 vv$ git push origin main
+error: src refspec main does not match any.
+error: failed to push some refs to 'origin'
+
+    5.2: It will throw error because we need didn't mention to which repo 
+         git should commit above file
+    5.3: Create new Repo in github 
+    5.4: Then enter git remote add origin "Repo path"
+    5.5: Now it will connected to created Repo
+    5.6: git add .
+    5.6: git push orign main
